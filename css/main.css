@@ -29,8 +29,6 @@
         visibility: hidden;
 }
 
-/*********************************//*MEDIA QUERIES*//*****************************/
-
 /************************//*Navbar*//*************************/
 .navbar {
     width: 100%;
@@ -82,5 +80,3 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
-/************************//*Sections*//***********************/
