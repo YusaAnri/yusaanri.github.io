@@ -30,3 +30,57 @@
 }
 
 /*********************************//*MEDIA QUERIES*//*****************************/
+
+/************************//*Navbar*//*************************/
+.navbar {
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    top: 0px;
+    margin: 0 auto;
+    background: black;
+    display: flex;
+    display:-webkit-flex;
+    position: fixed;
+    border-bottom: double 4px #FFF;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    font-family: kankin;
+}
+
+.links {
+    display: flex;
+    display:-webkit-flex;
+    list-style: none;
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+}
+
+.links>li>a {
+    text-decoration: none;
+    padding: 36px 70px 34px 70px;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+
+.nav-item:hover {
+    background-color: #555;
+
+}
+
+.lang {
+    background: url(down-arrow.svg) no-repeat;
+    background-position-x: 72%;
+    background-position-y: 51%;
+    background-size: 4%;
+
+}
+
+#Logo {
+
+    background-image: url(logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/************************//*Sections*//***********************/
