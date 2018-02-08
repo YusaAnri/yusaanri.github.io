@@ -1,3 +1,69 @@
+/************************//*Dropdown*//*************************/
+
+.nav-content {
+    position: absolute;
+    width: 212.06px;
+    height: 90px;
+    top: 90px;
+    overflow: hidden;
+    background-color: #000;
+    max-height: 0;
+}
+
+.nav-sub {
+    height: 90px;
+}
+
+.nav-sub ul {
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-sub li {
+    padding: 0 20px 10px 20px;
+}
+
+.nav-sub ul li a {
+
+    display: inline-block;
+    padding: 12px 110px 5px 50px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.nav-content a:hover {
+    text-decoration: underline;
+}
+
+.nav-item:focus {
+    background-color: #444;
+}
+
+.nav-item:hover ~ .nav-content {
+    max-height: 90px;
+    -webkit-transition: max-height 0.4s ease-in;
+    -moz-transition: max-height 0.4s ease-in;
+}
+
+.nav-content:hover {
+    max-height: 90px;
+}
+
+.burger-nav {
+    display: none;
+}
+
+.lang-content {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 /**************************//*Preloader*//**************/
 
 .preloader {
